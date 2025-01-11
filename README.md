@@ -22,9 +22,11 @@ A simple web application for tracking countries visited by your LOVED_ONCE. The 
 ## PROJECT IMAGES
 
 User home page where user can add their visited countries and new family member to the application
+
 ![Family Travel Tracker](./public/home_page.png)
 
 Add new family member to the application
+
 ![Family Travel Tracker](./public/add-user_page.png)
 
 ## Installation
