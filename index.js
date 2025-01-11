@@ -9,12 +9,12 @@ const db = new pg.Client({
   user: "postgres",
   host: "localhost",
   database: "postgres",
-  password: "postgres",
+  password: "YOUR_PASSWORD",
   port: 5432,
 });
 db.connect((error) => {
   if (error) console.log(error.message);
-  console.log("Connected to database");
+  else console.log("Connected to database");
 });
 
 app.use(bodyParser.urlencoded({ extended: true }));
